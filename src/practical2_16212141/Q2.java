@@ -8,7 +8,7 @@ public class Q2{
 		double b = input.nextDouble();
 		double c = input.nextDouble();
 		
-		if (a+b < c | a+c < b | b+c < a) {
+		if (a+b <= c || a+c <= b || b+c <= a) {
 			System.out.println("Please input the valid lengths for triangle");
 			System.exit(1);
 		}
